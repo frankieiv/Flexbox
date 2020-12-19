@@ -1,0 +1,47 @@
+h3{
+    color:darkred;
+    text-align:left;
+    border: solid;
+    margin: 100px;
+    padding-left: 50px;
+}
+a:link{
+    color:gold
+}
+a:visited{
+    color:gold
+}
+.two{
+    position: relative;
+}
+.two p{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+.two:hover p{
+    opacity: 1;
+}
+.two:hover img{
+    opacity: 0.2;
+}
+h2,p{
+    border: none;
+    text-align: center;
+}
+.one{
+    background-color: #4fc5ce;
+    text-align:center;
+}
+.main{
+    display:flex;
+    justify-content:space-evenly; 
+    justify-content:  space-between;
+    flex-wrap:wrap;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
